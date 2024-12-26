@@ -1,0 +1,82 @@
+.resimslider{
+    height: 600px;
+}
+body{
+   padding-top: 50px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.hakkimizda{
+    background-color: #bcdcf1;
+}
+.ayrac{
+    border: none;
+    border-top: 3px solid #080808;
+    max-width: 250px;
+    margin: 25px auto;
+}
+.ibeyaz{
+    color: #9d9b9b;
+    position: relative;
+    top: -55px;
+    font-size: 40px;
+    border: 10px solid white;
+    background-color: white;
+}
+.igri{
+    color: #9d9b9b;
+    position: relative;
+    top: -55px;
+    font-size: 40px;
+    border: 10px solid #bcdcf1;
+    background-color: #bcdcf1;
+}
+.yerlerimiz>img:hover{
+    opacity: 0.8;
+}
+.görseller{
+    background-color: #bcdcf1;
+}
+.figure :hover{
+    opacity: 0.8;
+}
+
+.formInput{
+    display: inline-block;
+    text-align: left;
+    width: 57rem;
+}
+
+.formLabel{
+    display: inline-block;
+    text-align: left;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    height: 15vh;
+}
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    
+  }
+  ul.breadcrumb li {
+    display: inline-flex;
+    font-size: 18px;
+  }
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: white;
+    content: "/";
+  }
+  ul.breadcrumb li a {
+    color: white;
+    text-decoration: none;
+  }
+  ul.breadcrumb li a:hover,:focus {
+    color: red;
+    text-decoration: none;
+  }
